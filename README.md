@@ -17,9 +17,8 @@ Each data validation job ```data_validation.py``` is tied with a job id. Only 1 
 
 ![workflow](/workflow.png)
 
-## What to expect
-1. The data validation result will be written to a txt file for review in one-go when all validation jobs are done.
-2. The error logs should be written to separate files, so that the data validation process will not be interrupted.
+## Error redirection
+The error logs will be redirected and written to separate files, so that the data validation process will not be interrupted.
 
 ## Conclusion
 Instead of manually running the data validation jobs, which is slow and inefficient, I am trying to automate the process to run all the jobs in sequence as well as redirect the error logs for trouble shooting separatetly. As a result, I can free up my time while data validation is in progress.
